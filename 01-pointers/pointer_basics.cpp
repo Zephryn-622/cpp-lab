@@ -48,6 +48,7 @@ int main() {
     // r is a wild pointer, which points to a random memory address (0x1100 in this case)
 
     cout << "Value of r: " << *r << endl;
+    // This will cause an error because 0x1100 is a random memory address, user cannot access it
 
 
 
