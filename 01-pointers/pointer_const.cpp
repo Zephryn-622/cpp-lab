@@ -26,5 +26,16 @@ int main() {
     cout << "Value of a: " << *q << endl;
     cout << endl;
 
+    const int * const r = &a;
+    // r is a const pointer to a const int, which means the value cannot be changed, and r cannot point to another int variable
+
+    // *r = 300;
+    // r = &b;
+    // both of these will cause an error because r is a const pointer to a const int
+    
+    cout << "Address of a: " << r << endl;
+    cout << "Value of a: " << *r << endl;
+    cout << endl;
+
     return 0;
 }
