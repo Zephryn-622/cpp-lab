@@ -23,12 +23,16 @@ int main() {
     cout << "Value of a: " << a << endl;
     cout << "Value of b: " << b << endl;
     cout << endl;
+    // Failure swapping
+    // Use when you don't want to change the values of a and b in the main function
 
     swap_2(&a, &b);
     cout << "After swap_2:" << endl;
     cout << "Value of a: " << a << endl;
     cout << "Value of b: " << b << endl;
     cout << endl;
+    // Success swapping
+    // Use when you want to change the values of a and b in the main function
 
     return 0;
 }
