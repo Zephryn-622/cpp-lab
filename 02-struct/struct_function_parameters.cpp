@@ -25,7 +25,7 @@ void Student_Info_2(struct Student * stu) {
     stu->matric_ID = 2000;
     stu->age = 100;
     // Change student matric ID and age
-    // Pass-by-pointer
+    // Pass-by-pointer, can reduce memory space used and no new copy created
 
     cout << "Matric_ID: " << stu->matric_ID << endl;
     cout << "Name: " << stu->name << endl;
