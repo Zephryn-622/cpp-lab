@@ -27,6 +27,7 @@ int main() {
     test02() = 1000;
     cout << "ref 2 = " << ref2 << endl;
     cout << "ref 2 = " << ref2 << endl;
+    // it will return 1000 because this is an assignment operation for a in test02()
 
     return 0;
 }
